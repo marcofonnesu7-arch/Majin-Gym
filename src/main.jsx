@@ -6,7 +6,7 @@ import './styles.css';
 if ('serviceWorker' in navigator && import.meta.env.PROD) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch((error) => {
-      console.error('Registrazione service worker non riuscita:', error);
+      console.error('Registrazione offline non riuscita:', error);
     });
   });
 }
