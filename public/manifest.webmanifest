@@ -1,0 +1,15 @@
+{
+  "name": "Majin Gym",
+  "short_name": "Majin Gym",
+  "description": "Schede, allenamenti, timer e progressi.",
+  "lang": "it-IT",
+  "start_url": "/Majin-Gym/",
+  "scope": "/Majin-Gym/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080719",
+  "theme_color": "#080719",
+  "icons": [
+    { "src": "/Majin-Gym/icons/majin-gym.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
